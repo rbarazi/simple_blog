@@ -1,0 +1,6 @@
+%h2=h @post.title
+%p.info
+  = "Under #{@post.category.name}"
+  = @post.updated_at.strftime("on %m/%d/%Y at %I:%M%p")
+%p=h @post.body
+= link_to 'Edit', edit_post_path(@post)

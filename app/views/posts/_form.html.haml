@@ -1,0 +1,10 @@
+= form.error_messages
+%p.row
+  = form.label :title
+  = form.text_field :title, :class => 'text'
+%p.row
+  = form.label :body
+  = form.text_area :body
+%p.row
+  = form.label :category
+  = form.select :category, Category.all.collect{|c| [c.name, c.id]}

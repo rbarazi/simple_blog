@@ -1,0 +1,7 @@
+%h2 Editing post
+- form_for(@post) do |f|
+  = render :partial => f
+  = f.submit "Update"
+
+= link_to 'Show', @post
+= link_to 'Back', posts_path
