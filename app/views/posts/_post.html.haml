@@ -3,4 +3,4 @@
   %p.info
     = "Under #{post.category.name}"
     = post.updated_at.strftime("on %m/%d/%Y at %I:%M%p")
-  %p= truncate post.body, 200
+  %p= truncate post.body, :length => 200
