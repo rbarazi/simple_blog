@@ -13,7 +13,10 @@
     #container
       #mainbar
         = yield
-      #sidebar
+      #sidebar        
+        .box
+          %h3 Categories
+          %ul#categories= render :partial => Category.all
         = yield :sidebar
     #footer
       SimpleBlog
