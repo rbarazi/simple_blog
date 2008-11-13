@@ -1,0 +1,1 @@
+page.alert @comment.errors.full_messages
