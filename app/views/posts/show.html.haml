@@ -1,6 +1,14 @@
 %h2=h @post.title
 %p.info
-  = "Under #{@post.category.name}"
+  Under
+  = link_to @post.category.name, @post.category
   = @post.updated_at.strftime("on %m/%d/%Y at %I:%M%p")
+  = link_to 'Edit', edit_post_path(@post)
 %p=h @post.body
-= link_to 'Edit', edit_post_path(@post)
+
+%h3 Comments
+%ul#comments
+  = render :partial => @post.comments
+  = content_tag :li, "No Comments so far", :id => 'no-comments' if @post.comments.empty?
+
+= render :partial => 'comments/new.html.haml'

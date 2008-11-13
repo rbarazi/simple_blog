@@ -1,0 +1,3 @@
+page['no-comments'].remove if @post.comments.size <= 1
+page.insert_html :bottom, :comments, :partial => @comment
+page['new_comment'].reset

@@ -6,5 +6,5 @@
   = form.label :body
   = form.text_area :body
 %p.row
-  = form.label :category
-  = form.select :category, Category.all.collect{|c| [c.name, c.id]}
+  = form.label :category_id
+  = form.select :category_id, Category.all.collect{|c| [c.name, c.id]}

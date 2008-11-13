@@ -5,6 +5,17 @@ body{
 	line-height: 1.3;
 	background: #FFF;
 }
+h3{
+	margin-top: 10px;
+}
+#comments, #new_comment{
+	width: 450px;
+	margin: 0 auto;
+}
+#new_comment textarea{
+	width: 450px;
+	height: 200px;
+}
 #header {
 	padding: 10px 0;	
 	width: 926px;
