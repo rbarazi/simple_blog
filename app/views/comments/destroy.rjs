@@ -1,0 +1,2 @@
+page[dom_id(@comment)].remove
+page.insert_html :bottom, :comments, no_comments(@post) if @post.comments.size < 1

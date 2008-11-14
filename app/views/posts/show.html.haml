@@ -9,6 +9,6 @@
 %h3 Comments
 %ul#comments
   = render :partial => @post.comments
-  = content_tag :li, "No Comments so far", :id => 'no-comments' if @post.comments.empty?
+  = no_comments(@post)
 
 = render :partial => 'comments/new.html.haml'

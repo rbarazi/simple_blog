@@ -1,0 +1,7 @@
+%h2 Editing category
+- form_for(@category) do |f|
+  = render :partial => f
+  = f.submit "Update"
+
+= link_to 'Show', @category
+= link_to 'Back', root_path

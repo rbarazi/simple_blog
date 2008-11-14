@@ -1,0 +1,6 @@
+%h2 New category
+- form_for(@category) do |f|
+  = render :partial => f
+  = f.submit "Create"
+
+= link_to 'Back', root_path

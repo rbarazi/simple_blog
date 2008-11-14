@@ -13,18 +13,6 @@ class CommentsController < ApplicationController
     end
   end
 
-  def update
-    @comment = @post.comments.find(params[:id])
-
-    respond_to do |format|
-      if @comment.update_attributes(params[:comment])
-        format.js
-      else
-        format.js { render :template => 'comments/fail.rjs'}
-      end
-    end
-  end
-
   def destroy
     @comment = @post.comments.find(params[:id])
     @comment.destroy
