@@ -100,8 +100,13 @@ ar:
         even: "يجب أن يكون زوجي"
     models:
       post: "المقال"
+      category: "التصنيف"
+      comment: "التعليق"
     attributes:
       post:
         title: "العنوان"
         body: "النص"
-      
+      category:
+        name: "الاسم"
+      comment:
+        body: "النص"
