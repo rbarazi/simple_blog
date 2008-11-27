@@ -2,14 +2,14 @@
 %html{html_attrs}
   %head
     %meta{'http-equiv' => 'Content-Type', :content => 'text/html; charset=UTF-8'}
-    %title SimpleBlog
+    %title= t :title
     = stylesheet_link_tag 'screen', :media => 'screen'
     = javascript_include_tag :defaults
     = yield :head
 
   %body
     #header
-      %h1= link_to 'SimpleBlog', root_path
+      %h1= link_to t(:title), root_path
     #container
       #mainbar
         = yield

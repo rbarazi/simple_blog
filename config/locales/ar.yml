@@ -1,4 +1,5 @@
 ar:
+  title: مدونة بسيطة
   date:
     formats:
       default: "%Y-%m-%d"
