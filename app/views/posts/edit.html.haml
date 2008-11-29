@@ -1,7 +1,9 @@
-%h2 Editing post
+%h2
+  =t :editing 
+  =t "activerecord.models.post"
 - form_for(@post) do |f|
   = render :partial => f
-  = f.submit "Update"
+  = f.submit t(:update)
 
-= link_to 'Show', @post
-= link_to 'Back', posts_path
+= link_to t(:show), @post
+= link_to t(:back), posts_path

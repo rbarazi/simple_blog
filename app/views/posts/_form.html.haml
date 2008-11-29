@@ -1,10 +1,10 @@
 = form.error_messages
 %p.row
-  = form.label :title
+  = form.label :title, t("activerecord.attributes.category.title")
   = form.text_field :title, :class => 'text'
 %p.row
-  = form.label :body
+  = form.label :body, t("activerecord.attributes.category.body")
   = form.text_area :body
 %p.row
-  = form.label :category_id
+  = form.label :category_id, t("activerecord.attributes.post.category_id")
   = form.select :category_id, Category.all.collect{|c| [c.name, c.id]}

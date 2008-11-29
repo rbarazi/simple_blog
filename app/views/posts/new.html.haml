@@ -1,6 +1,9 @@
-%h2 New post
+%h2
+  =t "activerecord.models.post"
+  =t :new
+
 - form_for(@post) do |f|
   = render :partial => f
-  = f.submit "Create"
+  = f.submit t(:create)
 
-= link_to 'Back', posts_path
+= link_to t(:back), posts_path

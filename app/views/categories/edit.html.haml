@@ -1,7 +1,9 @@
-%h2 Editing category
+%h2
+  =t :editing 
+  =t "activerecord.models.category"
 - form_for(@category) do |f|
   = render :partial => f
-  = f.submit "Update"
+  = f.submit t(:update)
 
-= link_to 'Show', @category
-= link_to 'Back', root_path
+= link_to t(:show), @category
+= link_to t(:back), root_path

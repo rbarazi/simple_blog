@@ -15,9 +15,11 @@
         = yield
       #sidebar        
         .box
-          %h3 Categories
+          %h3=t :categories
           %ul#categories= render :partial => Category.all
         = yield :sidebar
     #footer
-      SimpleBlog - A demo simple blog for tutorials on
+      =t :title
+      \-
+      =t :description
       = link_to "rida.me", "http://rida.me"

@@ -1,6 +1,8 @@
-%h2 New category
+%h2
+  =t "activerecord.models.category"
+  =t :new
 - form_for(@category) do |f|
   = render :partial => f
-  = f.submit "Create"
+  = f.submit t(:create)
 
-= link_to 'Back', root_path
+= link_to t(:back), root_path

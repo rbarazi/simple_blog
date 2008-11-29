@@ -1,5 +1,16 @@
 ar:
   title: مدونة بسيطة
+  description: مدونة بسيطة أنشأت لتستخدم في المقالات التعليميىة على
+  categories: التصنيفات
+  back: رجوع
+  show: عرض
+  editing: تحرير
+  new: جديد
+  create: انشاء
+  update: تحديث
+  delete: حدف
+  submit: ارسال
+  comments: التعليقات
   date:
     formats:
       default: "%Y-%m-%d"
@@ -77,7 +88,7 @@ ar:
   activerecord:
     errors:
       template:
-        header: "ليس بالامكان حفظ {{model}}:"
+        header: "ليس بالامكان حفظ ال{{model}}:"
         body: "يرجى التحقق من الحقول التالية:"
       messages:
         inclusion: "ليس خيارا مقبولا"
@@ -100,13 +111,14 @@ ar:
         odd: "يجب أن يكون فردي"
         even: "يجب أن يكون زوجي"
     models:
-      post: "المقال"
-      category: "التصنيف"
-      comment: "التعليق"
+      post: "مقال"
+      category: "تصنيف"
+      comment: "تعليق"
     attributes:
       post:
         title: "العنوان"
         body: "النص"
+        category_id: "التصنيف"
       category:
         name: "الاسم"
       comment:

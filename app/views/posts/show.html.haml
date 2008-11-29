@@ -1,12 +1,12 @@
 %h2=h @post.title
 %p.info
-  Under
+  التصنيف:
   = link_to @post.category.name, @post.category
-  = @post.updated_at.strftime("on %m/%d/%Y at %I:%M%p")
-  = link_to 'Edit', edit_post_path(@post)
+  = @post.updated_at.strftime("في %m/%d/%Y at %I:%M%p")
+  = link_to t(:edit), edit_post_path(@post)
 %p=h @post.body
 
-%h3 Comments
+%h3= t(:comments)
 %ul#comments
   = render :partial => @post.comments
   = no_comments(@post)
