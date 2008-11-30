@@ -24,6 +24,10 @@ h3{
 	border-bottom:1px solid #ccc;
 	text-align: center;
 }
+.locale_selector{
+	float: right;
+	width: 50px;
+}
 #container {
 	width: 970px;
 	min-height: 500px;
