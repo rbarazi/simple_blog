@@ -1,5 +1,28 @@
-# Sample localization file for English. Add more files in this directory for other locales.
-# See http://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
-
 en:
-  hello: "Hello world"
+  title: Simple Blog
+  description: a simple and basic blog engine made to be used in tutorials written at
+  categories: Categories
+  back: Back
+  show: Show
+  editing: Editing
+  new: New
+  edit: Edit
+  create: Create
+  update: Update
+  delete: Delete
+  submit: Submit
+  comments: Comments
+  activerecord:
+    models:
+      post: post
+      category: category
+      comment: comment
+    attributes:
+      post:
+        title: title
+        body: body
+        category_id: category
+      category:
+        name: name
+      comment:
+        body: body

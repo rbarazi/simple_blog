@@ -3,7 +3,7 @@
   %head
     %meta{'http-equiv' => 'Content-Type', :content => 'text/html; charset=UTF-8'}
     %title= t :title
-    = stylesheet_link_tag 'screen', :media => 'screen'
+    = stylesheet_link_tag I18n.locale.to_s, :media => 'screen'
     = javascript_include_tag :defaults
     = yield :head
 
