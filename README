@@ -1,1 +1,4 @@
 This is a very simple and basic blog engine made to be used in tutorials written in http://rida.me
+
+TODO:
+- add locale to routes
