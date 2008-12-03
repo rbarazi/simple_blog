@@ -13,8 +13,9 @@ class ApplicationController < ActionController::Base
   # from your application log (in this case, all fields with names like "password"). 
   # filter_parameter_logging :password
   
+  before_filter :set_locale
+  
   def set_locale
     I18n.locale = params[:locale] || I18n.default_locale
-    redirect_to locale_path(:locale => I18n.locale) if params[:locale].blank?
   end
 end
