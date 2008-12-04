@@ -1,3 +1,3 @@
-- remote_form_for [@post, @post.comments.new] do |f|
+- remote_form_for :comment, @post.comments.new, :url => post_comments_path(:post_id => @post, :locale => I18n.locale), :html => {:id => 'new_comment'} do |f|
   = f.text_area :body, :class => 'text'
   = f.submit t(:submit)

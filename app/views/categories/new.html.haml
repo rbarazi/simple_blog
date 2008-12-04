@@ -1,7 +1,7 @@
 %h2
   =t "activerecord.models.category"
   =t :new
-- form_for(@category) do |f|
+- form_for(:category, @category, categories_path(:locale => I18n.locale)) do |f|
   = render :partial => f
   = f.submit t(:create)
 

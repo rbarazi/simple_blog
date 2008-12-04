@@ -4,6 +4,7 @@ class CommentsControllerTest < ActionController::TestCase
   test "should create comment" do
     assert_difference('Comment.count') do
       xhr :post, :create, :post_id => posts(:lorem_ipsum).id,
+                          :locale => I18n.locale,
                           :comment => valid_comment_attributes
     end
 
@@ -14,6 +15,7 @@ class CommentsControllerTest < ActionController::TestCase
   test "should destroy comment" do
     assert_difference('Comment.count', -1) do
       xhr :delete, :destroy, :post_id => posts(:lorem_ipsum).id,
+                             :locale => I18n.locale,      
                              :id => comments(:bad_post).id
     end
 

@@ -23,7 +23,7 @@ h3{
 	border-bottom:1px solid #ccc;
 	text-align: center;
 }
-.locale_selector{
+.locale_link{
 	float: right;
 	width: 50px;
 }

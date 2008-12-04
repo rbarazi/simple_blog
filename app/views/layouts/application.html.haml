@@ -9,8 +9,7 @@
 
   %body
     #header
-      - form_tag '', :method => :get do
-        = select_tag :locale, options_for_select([:en, :ar], I18n.locale), :onchange => 'this.form.submit()', :class => 'locale_selector'
+      = locale_link
       %h1= link_to t(:title), root_path
     #container
       #mainbar

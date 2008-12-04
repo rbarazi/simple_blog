@@ -1,5 +1,5 @@
 %li{:id => dom_id(post)}
-  %h2= link_to post.title, post
+  %h2= link_to post.title, post_path(:id => post, :locale => I18n.locale)
   %p.info
     = "التصنيف #{post.category.name}"
     = post.updated_at.strftime("في %m/%d/%Y at %I:%M%p")

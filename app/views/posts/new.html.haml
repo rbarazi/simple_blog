@@ -6,4 +6,4 @@
   = render :partial => f
   = f.submit t(:create)
 
-= link_to t(:back), posts_path
+= link_to t(:back), posts_path(:locale => I18n.locale)

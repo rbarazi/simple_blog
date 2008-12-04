@@ -1,9 +1,9 @@
 %h2
   =t :editing 
   =t "activerecord.models.post"
-- form_for(@post) do |f|
+- form_for(:post, @post, post_path(:id => @post, :locale => I18n.locale)) do |f|
   = render :partial => f
   = f.submit t(:update)
 
-= link_to t(:show), @post
-= link_to t(:back), posts_path
+= link_to t(:show), post_path(:id => @post, :locale => I18n.locale)
+= link_to t(:back), posts_path(:locale => I18n.locale)
