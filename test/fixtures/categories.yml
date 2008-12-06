@@ -1,4 +1,6 @@
 lorem:
-  name: التصنيف الأول
+  name_ar: التصنيف الأول
+  name_en: First Catefory
 ipsum:
-  name: التصنيف الثاني
+  name_ar: التصنيف الثاني
+  name_en: Second Category

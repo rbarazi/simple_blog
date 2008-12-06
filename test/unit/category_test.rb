@@ -7,7 +7,8 @@ class CategoryTest < ActiveSupport::TestCase
     assert_no_difference 'Category.count' do
       category.save
     end
-    assert_not_nil category.errors.on(:name)
+    assert_not_nil category.errors.on(:name_ar)
+    assert_not_nil category.errors.on(:name_en)
   end
   
   private
