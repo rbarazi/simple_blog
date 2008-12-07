@@ -3,3 +3,4 @@ This is a very simple and basic blog engine made to be used in tutorials written
 TODO:
 - Translate Post model
 - Add translated attributes to yaml translations
+- extracted to a plugin
