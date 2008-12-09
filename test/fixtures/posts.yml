@@ -1,11 +1,17 @@
 lorem_ipsum:
-  title: مقالة بسيطة عن موضوع بسيط
-  body: |
+  title_ar: مقالة بسيطة عن موض
+  title_en: Lorem ipsum dolor sit amet
+  body_ar: |
     كلام بسيط وحوار أبسط فبالبساطة تستبسط الأمور وما عليك الا أن تسبسطهاو , كلام بسيط وحوار أبسط فبالبساطة تستبسط الأمور وما عليك الا أن تسبسطها, كلام بسيط وحوار أبسط فبالبساطة تستبسط الأمور وما عليك الا أن تسبسطها, كلام بسيط وحوار أبسط فبالبساطة تستبسط الأمور وما عليك الا أن تسبسطها, كلام بسيط وحوار أبسط فبالبساطة تستبسط الأمور وما عليك الا أن تسبسطها
+  body_en: |
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur mollis tellus a enim. Etiam vulputate, mauris ac laoreet bibendum, tellus odio egestas nisi, vitae mollis nisi ante eget turpis. Aliquam gravida, nisl vel egestas bibendum, ipsum arcu scelerisque nunc, a hendrerit massa tellus ac massa. Nunc sed lectus. Ut tincidunt lacus aliquet urna. Sed nisl orci, lacinia id, vulputate non, vestibulum egestas, enim. Duis facilisis lorem eu nunc. Aenean tincidunt egestas enim. Proin mollis felis. Fusce accumsan vehicula magna. Vivamus ultrices neque non lectus. Pellentesque vel sem interdum arcu ornare pellentesque. Integer tortor lacus, faucibus vitae, consequat quis, tristique ut, nisl. Etiam in ipsum sit amet augue commodo tincidunt. Nullam dui. Nullam in dui. Quisque dolor ante, dapibus vitae, tempus sed, rhoncus volutpat, tortor. Pellentesque et risus. Phasellus magna nunc, ullamcorper at, mattis ac, fringilla id, eros. 
   category: lorem
 
 maecenas:
-  title: مقالة بسيطة عن موضوع بسيط
-  body: |
+  title_ar: مقالة بسيطة عن موضوع بسيط
+  title_en: Maecenas congue aliquet nibh
+  body_ar: |
     كلام بسيط وحوار أبسط فبالبساطة تستبسط الأمور وما عليك الا أن تسبسطهاو , كلام بسيط وحوار أبسط فبالبساطة تستبسط الأمور وما عليك الا أن تسبسطها, كلام بسيط وحوار أبسط فبالبساطة تستبسط الأمور وما عليك الا أن تسبسطها, كلام بسيط وحوار أبسط فبالبساطة تستبسط الأمور وما عليك الا أن تسبسطها, كلام بسيط وحوار أبسط فبالبساطة تستبسط الأمور وما عليك الا أن تسبسطها
+  body_en: |
+    Maecenas congue aliquet nibh. Morbi id odio varius erat luctus condimentum. Vestibulum ut ligula et risus condimentum dapibus. Donec porttitor turpis. Quisque mattis dictum odio. Nam nisi. Nam malesuada augue at eros fermentum rhoncus. Donec tortor. Cras eu massa et quam imperdiet mollis. Donec sagittis mollis quam. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras feugiat placerat metus. Nulla mauris ante, tempor at, posuere sed, malesuada sed, nibh. Aenean pede. Duis urna odio, feugiat ac, tincidunt et, placerat quis, augue. Aenean enim lorem, adipiscing quis, aliquet eu, eleifend eu, nisl.
   category: ipsum

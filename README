@@ -1,6 +1,5 @@
 This is a very simple and basic blog engine made to be used in tutorials written in http://rida.me
 
 TODO:
-- Translate Post model
-- Add translated attributes to yaml translations
+- Translate Post views
 - extracted to a plugin

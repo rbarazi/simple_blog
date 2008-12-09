@@ -14,7 +14,7 @@ class PostTest < ActiveSupport::TestCase
     assert_no_difference 'Post.count' do
       post.save
     end
-    assert_not_nil post.errors.on(:body)
+    assert_not_nil post.errors.on(:body_ar)
   end
   
   test "requires title" do
@@ -22,7 +22,7 @@ class PostTest < ActiveSupport::TestCase
     assert_no_difference 'Post.count' do
       post.save
     end
-    assert_not_nil post.errors.on(:title)
+    assert_not_nil post.errors.on(:title_ar)
   end
   
   private
