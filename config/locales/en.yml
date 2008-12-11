@@ -12,6 +12,9 @@ en:
   delete: Delete
   submit: Submit
   comments: Comments
+  the_category: |
+    Category:
+  new_post: New post
   activerecord:
     models:
       post: post

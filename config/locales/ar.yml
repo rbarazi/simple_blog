@@ -12,6 +12,9 @@ ar:
   delete: حدف
   submit: ارسال
   comments: التعليقات
+  the_category: |
+    التصنيف:
+  new_post: مقال جديد
   date:
     formats:
       default: "%Y-%m-%d"
